@@ -11,20 +11,24 @@
     android:padding="24dp"
     tools:context=".MainActivity">
     <TextView
+      android:textSize="25dp"
+      android:textStyle="bold"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Hello World!"
+      android:text="@string/this_is_main_activity"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
     
     <Button
-        android:id="@+id/gotoNextbtn"
+        android:id="@+id/gonexttn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Go to next screen"
+        android:text="Go to 2nd Activity"
+        android:textSize="20sp"
+        android:textStyle="bold"
         />
 
 </LinearLayout>
